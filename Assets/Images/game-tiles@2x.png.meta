@@ -1,0 +1,505 @@
+fileFormatVersion: 2
+guid: f901bc2e970a6d342a797131d05530b5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Platform
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 992
+        width: 114
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaac7f6741ff0842974d6c1204936f6
+      internalID: -1235856789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrownBlock1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 848
+        width: 121
+        height: 30
+      alignment: 9
+      pivot: {x: 0.49586776, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c3ef86984a7d24a9e53c01d933dbb5
+      internalID: -899284904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrownBlock2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 802
+        width: 121
+        height: 40
+      alignment: 9
+      pivot: {x: 0.49586776, y: 0.625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9188542c3982e4eb24f62cf08a6c6f
+      internalID: -866723584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrownBlock3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 737
+        width: 121
+        height: 55
+      alignment: 9
+      pivot: {x: 0.49586776, y: 0.72727275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f8ba85b8e551f43b268dc03ca98227
+      internalID: -790257282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrownBlock4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 661
+        width: 121
+        height: 65
+      alignment: 9
+      pivot: {x: 0.49586776, y: 0.7692308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1f8dba8be37a7498c43ade1024d557
+      internalID: -1853918636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finish
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 6
+        width: 268
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1e27182eec27040a9bdaf3c28dfc38
+      internalID: -617606095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BrownBlock1: -899284904
+      BrownBlock2: -866723584
+      BrownBlock3: -790257282
+      BrownBlock4: -1853918636
+      Platform: -1235856789
+      finish: -617606095
+      game-tiles@2x_1: 1681986207
+      game-tiles@2x_10: -401970057
+      game-tiles@2x_100: -310283132
+      game-tiles@2x_101: 1600120629
+      game-tiles@2x_102: -1552969889
+      game-tiles@2x_103: 1711787101
+      game-tiles@2x_104: -486243962
+      game-tiles@2x_105: 412808133
+      game-tiles@2x_106: 1335870684
+      game-tiles@2x_107: 1553242561
+      game-tiles@2x_108: -1407329037
+      game-tiles@2x_109: 1031986074
+      game-tiles@2x_11: 2009997755
+      game-tiles@2x_110: -955030005
+      game-tiles@2x_111: 70023816
+      game-tiles@2x_112: 527468387
+      game-tiles@2x_113: 1543734813
+      game-tiles@2x_114: -692429679
+      game-tiles@2x_115: -133316027
+      game-tiles@2x_116: -1435587219
+      game-tiles@2x_117: 834316812
+      game-tiles@2x_118: -841199463
+      game-tiles@2x_119: 2079498119
+      game-tiles@2x_12: -699670233
+      game-tiles@2x_120: 1276583720
+      game-tiles@2x_121: -1802408711
+      game-tiles@2x_122: -1397171271
+      game-tiles@2x_123: 633489105
+      game-tiles@2x_124: 892331801
+      game-tiles@2x_125: -413657971
+      game-tiles@2x_126: 972735748
+      game-tiles@2x_127: 1199885654
+      game-tiles@2x_128: 476234379
+      game-tiles@2x_129: 1085948198
+      game-tiles@2x_13: -1746410121
+      game-tiles@2x_130: -1398379861
+      game-tiles@2x_131: 386441297
+      game-tiles@2x_132: -349757257
+      game-tiles@2x_133: 786877088
+      game-tiles@2x_134: -837803433
+      game-tiles@2x_135: -1386279931
+      game-tiles@2x_136: 302056010
+      game-tiles@2x_137: -706294069
+      game-tiles@2x_138: -1272201145
+      game-tiles@2x_139: 1616776732
+      game-tiles@2x_14: -835123941
+      game-tiles@2x_140: -189434029
+      game-tiles@2x_141: 972109987
+      game-tiles@2x_142: -445071159
+      game-tiles@2x_143: -1127032127
+      game-tiles@2x_144: 376148661
+      game-tiles@2x_145: -1576707521
+      game-tiles@2x_146: -1878738725
+      game-tiles@2x_147: -1888669730
+      game-tiles@2x_148: 1591641231
+      game-tiles@2x_149: -861047258
+      game-tiles@2x_15: 719533364
+      game-tiles@2x_150: -1237408782
+      game-tiles@2x_151: 2014427650
+      game-tiles@2x_152: 648661042
+      game-tiles@2x_153: 1573810905
+      game-tiles@2x_154: 1727583387
+      game-tiles@2x_155: 1917623044
+      game-tiles@2x_156: 212151273
+      game-tiles@2x_157: 1513348891
+      game-tiles@2x_158: -291003749
+      game-tiles@2x_159: -1282097628
+      game-tiles@2x_16: 337220596
+      game-tiles@2x_160: 1859751336
+      game-tiles@2x_161: 1467616643
+      game-tiles@2x_162: 367890984
+      game-tiles@2x_163: -991469273
+      game-tiles@2x_164: -698375439
+      game-tiles@2x_165: -1171269609
+      game-tiles@2x_166: 376425140
+      game-tiles@2x_167: -1625727407
+      game-tiles@2x_168: -1029328689
+      game-tiles@2x_169: 1173401119
+      game-tiles@2x_170: -2013251543
+      game-tiles@2x_171: 1914361828
+      game-tiles@2x_172: -1581404008
+      game-tiles@2x_173: -1866665559
+      game-tiles@2x_174: -2083676443
+      game-tiles@2x_175: -444271005
+      game-tiles@2x_176: 213830680
+      game-tiles@2x_177: 1123562256
+      game-tiles@2x_178: -1881816701
+      game-tiles@2x_179: 800273600
+      game-tiles@2x_18: 173081067
+      game-tiles@2x_180: 1359743039
+      game-tiles@2x_181: 1933423013
+      game-tiles@2x_182: -210974488
+      game-tiles@2x_183: 2005823711
+      game-tiles@2x_184: 869630789
+      game-tiles@2x_185: 1672186266
+      game-tiles@2x_186: 1316065786
+      game-tiles@2x_187: 1265429234
+      game-tiles@2x_188: 4012382
+      game-tiles@2x_189: -1679350939
+      game-tiles@2x_19: 164999726
+      game-tiles@2x_190: -1186389520
+      game-tiles@2x_191: -1258988107
+      game-tiles@2x_192: 1468359509
+      game-tiles@2x_193: -1098429628
+      game-tiles@2x_194: 414657118
+      game-tiles@2x_195: 61281311
+      game-tiles@2x_196: 610590023
+      game-tiles@2x_197: 1931884129
+      game-tiles@2x_198: 550455084
+      game-tiles@2x_199: 294281071
+      game-tiles@2x_2: 1689612392
+      game-tiles@2x_20: -1746157987
+      game-tiles@2x_200: 853043823
+      game-tiles@2x_201: 1150313418
+      game-tiles@2x_202: 1134919824
+      game-tiles@2x_203: 130949959
+      game-tiles@2x_204: 1895862816
+      game-tiles@2x_205: -705964126
+      game-tiles@2x_206: 67740676
+      game-tiles@2x_207: 1375756415
+      game-tiles@2x_208: 1644888972
+      game-tiles@2x_209: 1318546649
+      game-tiles@2x_21: -13670445
+      game-tiles@2x_210: -1742785240
+      game-tiles@2x_211: 2071736518
+      game-tiles@2x_212: -1370455638
+      game-tiles@2x_213: -300811157
+      game-tiles@2x_214: 1767089399
+      game-tiles@2x_215: -938616757
+      game-tiles@2x_216: 377541025
+      game-tiles@2x_217: -1091443558
+      game-tiles@2x_218: -368558559
+      game-tiles@2x_219: -59435751
+      game-tiles@2x_22: 1429324312
+      game-tiles@2x_220: -1970650855
+      game-tiles@2x_221: -830823067
+      game-tiles@2x_222: 843365187
+      game-tiles@2x_223: 823852268
+      game-tiles@2x_224: 930057392
+      game-tiles@2x_225: 1063669059
+      game-tiles@2x_226: -1693232466
+      game-tiles@2x_227: -129894307
+      game-tiles@2x_228: -1086732055
+      game-tiles@2x_229: 1442871005
+      game-tiles@2x_23: 1568274743
+      game-tiles@2x_230: -1120186847
+      game-tiles@2x_231: -931324988
+      game-tiles@2x_232: -461241025
+      game-tiles@2x_233: 771432925
+      game-tiles@2x_234: 469442986
+      game-tiles@2x_235: -1385079808
+      game-tiles@2x_236: -1522012233
+      game-tiles@2x_237: -1709731012
+      game-tiles@2x_24: -1678519680
+      game-tiles@2x_25: -1879169474
+      game-tiles@2x_26: 623485016
+      game-tiles@2x_27: 333251039
+      game-tiles@2x_29: -1789780605
+      game-tiles@2x_3: -777391599
+      game-tiles@2x_30: 157817006
+      game-tiles@2x_31: -556152318
+      game-tiles@2x_32: 1994846212
+      game-tiles@2x_33: -834230805
+      game-tiles@2x_35: -778577245
+      game-tiles@2x_36: 811525918
+      game-tiles@2x_37: -309306696
+      game-tiles@2x_38: -1260210764
+      game-tiles@2x_39: -307428995
+      game-tiles@2x_4: 2141133012
+      game-tiles@2x_40: 25760738
+      game-tiles@2x_41: 585995169
+      game-tiles@2x_42: 2082344843
+      game-tiles@2x_43: -121816058
+      game-tiles@2x_44: -1637712296
+      game-tiles@2x_45: -422677671
+      game-tiles@2x_46: 1157543436
+      game-tiles@2x_47: -212083486
+      game-tiles@2x_48: 1339226696
+      game-tiles@2x_49: 1584852261
+      game-tiles@2x_5: 22049004
+      game-tiles@2x_50: -1044234406
+      game-tiles@2x_51: 821160607
+      game-tiles@2x_52: 458392963
+      game-tiles@2x_53: 379579296
+      game-tiles@2x_54: -1332650284
+      game-tiles@2x_55: -1567958316
+      game-tiles@2x_56: 1858086249
+      game-tiles@2x_57: 1476768824
+      game-tiles@2x_58: -580850564
+      game-tiles@2x_6: -37429085
+      game-tiles@2x_60: 1281069916
+      game-tiles@2x_61: -409772075
+      game-tiles@2x_62: 914679029
+      game-tiles@2x_63: -1284085046
+      game-tiles@2x_64: 1883168313
+      game-tiles@2x_65: 746793967
+      game-tiles@2x_66: -1796102957
+      game-tiles@2x_67: -1697703651
+      game-tiles@2x_68: 1739555176
+      game-tiles@2x_69: -1299402771
+      game-tiles@2x_7: -629267687
+      game-tiles@2x_70: -724689039
+      game-tiles@2x_71: -1620878272
+      game-tiles@2x_72: 1192651439
+      game-tiles@2x_73: 1911879058
+      game-tiles@2x_74: -480802704
+      game-tiles@2x_75: 741076011
+      game-tiles@2x_76: 1538263242
+      game-tiles@2x_77: 317694223
+      game-tiles@2x_78: 1843395513
+      game-tiles@2x_79: 30786412
+      game-tiles@2x_8: -1263624489
+      game-tiles@2x_80: 1760927955
+      game-tiles@2x_81: 1343165219
+      game-tiles@2x_82: -144786538
+      game-tiles@2x_83: 777391495
+      game-tiles@2x_84: -487656460
+      game-tiles@2x_85: -1613375136
+      game-tiles@2x_86: -1522797408
+      game-tiles@2x_87: -2132012104
+      game-tiles@2x_88: -871562146
+      game-tiles@2x_89: -1349493170
+      game-tiles@2x_9: -1113309649
+      game-tiles@2x_90: 460752931
+      game-tiles@2x_91: -1899247717
+      game-tiles@2x_92: -1482012910
+      game-tiles@2x_93: -1416803709
+      game-tiles@2x_94: 1000443623
+      game-tiles@2x_95: -484756411
+      game-tiles@2x_96: -427357676
+      game-tiles@2x_97: 1039486748
+      game-tiles@2x_98: -769017696
+      game-tiles@2x_99: 48236704
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
