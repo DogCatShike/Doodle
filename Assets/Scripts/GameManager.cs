@@ -1,12 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance{get; set;}
     public GameObject start;
     public GameObject over;
+    
+    void Awake()
+    {
+        Instance = this;
+    }
 
     public void GameStart()
     {
@@ -20,13 +26,11 @@ public class GameManager : MonoBehaviour
         over.SetActive(true);
     }
 
-    public void OnStratButtonClick()
+    public void OnButtonClick()
     {
-
-    }
-
-    public void OnOverButtonClick()
-    {
-        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        start.SetActive(false);
+        over.SetActive(false);
+        Time.timeScale = 1;
     }
 }

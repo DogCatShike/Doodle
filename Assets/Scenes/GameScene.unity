@@ -202,6 +202,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 71483920}
   m_CullTransparentMesh: 1
+--- !u!1 &234313848 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5755419462749927871, guid: 840139eb9ab47f140bcf318d36c00bcc, type: 3}
+  m_PrefabInstance: {fileID: 4385590648809591403}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &335280149
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,7 +811,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 583741024}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 788251760}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: OnButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &583741024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -909,6 +926,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   start: {fileID: 824116751}
   over: {fileID: 802580144}
+  doodler: {fileID: 335280152}
+  platform: {fileID: 234313848}
 --- !u!1 &802580144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,7 +1186,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1077952648}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 788251760}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: OnButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1077952648
 MonoBehaviour:
   m_ObjectHideFlags: 0

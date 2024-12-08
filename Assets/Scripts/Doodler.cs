@@ -28,6 +28,13 @@ public class Doodler : MonoBehaviour
         if(other.gameObject.CompareTag("MainCamera"))
         {
             Debug.Log("屏幕外");
+            Debug.Log(transform.position.y);
+            Debug.Log(Camera.main.transform.position.y);
+            if(transform.position.y < Camera.main.transform.position.y - 5)
+            {
+                Debug.Log("游戏结束");
+                GameManager.Instance.GameOver();
+            }
         }
     }
 }
